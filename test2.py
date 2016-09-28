@@ -71,7 +71,8 @@ for imgUrl in imgUrls:
 		output.write(imgData)
 		output.close()
 	except (RuntimeError, TypeError, NameError) as e:
-		print e
+		
 
 print("--- %s seconds ---" % (time.time() - start_time))
 #=============================================================
+changed
